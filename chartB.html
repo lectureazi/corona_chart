@@ -130,6 +130,7 @@
 		values = [];
 
 		for(key in res){
+			if(key == 'std_day') continue;
 			days.push(key)
 			values.push(res[key])
 		}
